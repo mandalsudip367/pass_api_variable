@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Main Page"),
+        title: const Text("Main Page"),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       builder: (context) => SecondScreen(dog: dog),
                     ));
               },
-              child: Text("Show Image"),
+              child: const Text("Show Image"),
             ),
           )
         ],
